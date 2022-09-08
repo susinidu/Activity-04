@@ -9,7 +9,7 @@ var mySeconds = myDate.getSeconds();
 
 if (myHours < 10 ) { myHours = "0" + myHours;}
 if (myMinutes < 10 ) { myMinutes = "0" + myMinutes;}
-if (mySeconds < 10 ) { mySeconds = "0" + mySeconds;}
+if (mySeconds < 10 ) { mySeconds = "0" + mySeconds;}    
 
 var myClock = myHours + ":" + myMinutes + ":" + mySeconds ;
 
